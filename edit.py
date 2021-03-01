@@ -1,4 +1,5 @@
 import os
+import com
 
 def type(type_command):
     #print(type_command)
@@ -20,7 +21,9 @@ def type(type_command):
         f.close()
         
     except FileNotFoundError:
-        print("Error: File not found")
+        f = open(type_file,"a")
+        f.close()
+        print("File Created. Run the 'EDIT' command to edit")
 
     except IndexError:
         print("Error: Must specify file")
@@ -73,7 +76,9 @@ def edit(edit_command):
             f.writelines(edited)
         
     except FileNotFoundError:
-        print("Error: File not found")
+        f = open(edit_file,"a")
+        f.close()
+        print("File Created. Run this command again to edit")
 
     except IndexError:
         f = open("NEW DOC.TXT","w")

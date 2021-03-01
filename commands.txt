@@ -20,7 +20,7 @@ Prints every file in current folder called 'hello'
 /w = Lists contents across full width
 /s = shows only contents that fit name
 
-HELP - CD
+HELP - CD/CHDIR
 
 Changes current directory
 
@@ -28,7 +28,7 @@ CD (directory name)
 E.G CD folder
 Changes current directory to 'folder'
 
-HELP - MD
+HELP - MD/MKDIR
 
 Creates a directory
 
@@ -36,7 +36,7 @@ MD (directory name)
 E.G MD folder
 Creates directory called 'folder'
 
-HELP - RD
+HELP - RD/RMDIR
 
 Deletes a directory
 
@@ -106,3 +106,23 @@ Displays help for commands
 HELP (command)
 E.G HELP dir
 Shows help dialogue for DIR Command
+
+HELP - COPY
+
+Copys a file between directories
+
+COPY (file)
+E.G COPY hello.txt
+Copys 'HELLO.TXT' to a directory specified by user in prompt
+
+HELP - MOVE
+
+Copys a file between directories
+
+MOVE (file)
+E.G MOVE hello.txt
+Moves 'HELLO.TXT' to a directory specified by user in prompt
+
+HELP - CLOCK
+
+Displays the current time and date

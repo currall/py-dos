@@ -13,13 +13,16 @@ HELP
 
 EXE = Runs a Windows Program
 DIR = Displays current directory
-CD = Changes current directory
-MD = Creates new directory
-RD = Deletes a directory
-DEL (name of file) = Deletes a file
-REN (name of file) = Renames a file
-DRIVE: = Switches to a different drive
+CD/CHDIR = Changes current directory
+MD/MKDIR = Creates new directory
+RD/RMDIR = Deletes a directory
+DEL = Deletes a file
+REN = Renames a file
+COPY = Copys a file
+MOVE = Moves a file
+drive: = Switches to a different drive
 DISKS = Shows available drives
+CLOCK = Displays current time and date
 VER = Version - Displays version info
 TYPE = Read text document
 ABOUT = Runs intro dialogue
