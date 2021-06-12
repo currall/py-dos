@@ -1,0 +1,383 @@
+HELP - EXE
+
+Runs Windows executable
+
+EXE (executable name)
+E.G EXE explorer
+Runs "EXPLORER.EXE"
+
+Alternate usage:
+- Without EXE prefix
+- E.G "EXPLORER.EXE" not "EXE EXPLORER" (both will have same result)
+
+HELP - DIR
+
+Shows files in current directory
+
+DIR /(modifier)
+E.G DIR /s hello
+Prints every file in current folder called "hello"
+
+Alternate usage:
+- /w = Lists contents across full width
+- /s = shows only contents that fit name
+- FIND as alternative for /s
+
+HELP - CD
+
+Changes current directory
+
+CD (directory name)
+E.G CD folder
+Changes current directory to "folder"
+
+Alternate usage:
+- CHDIR
+
+HELP - MD
+
+Creates a directory
+
+MD (directory name)
+E.G MD folder
+Creates directory called "folder"
+
+Alternate usage:
+- MKDIR
+
+HELP - RD
+
+Deletes a directory
+
+RD (directory name)
+E.G RD folder
+Deletes directory called "folder"
+
+Alternate usage:
+- RMDIR
+ 
+HELP - DEL
+
+Deletes a file
+
+DEL (file name)
+E.G DEL hello.txt
+Deletes file called "hello.txt"
+
+Alternate usage:
+- DELETE
+- ERASE
+
+HELP - REN
+
+Renames a file
+
+REN (file name) (new name)
+E.G REN hello.txt hi.txt
+Renames file called "hello.txt" to "hi.txt"
+
+Alternate usage:
+- RENAME
+
+HELP - DRIVE
+
+Changes current drive
+
+DRIVE (drive letter):
+E.G DRIVE C:
+
+Alternate usage:
+- Without DRIVE prefix
+- E.G just (drive letter):
+
+Use "DISKS" to find available drive letters
+
+HELP - DISKS
+
+Displays list of available storage devices
+Also included in FDISK
+
+HELP - VER
+
+Displays version information
+
+Alternate usage:
+- Use SETVER to change version displayed
+- Use USERNAME to change username displayed
+
+HELP - TYPE
+
+Prints content of text file
+
+TYPE (file name)
+E.G TYPE hello.txt
+Contents of "hello.txt" will be written on-screen
+File extension (E.G = .TXT) is needed
+
+HELP - EDIT
+
+Edits contents of text file
+
+EDIT (file name)
+E.G EDIT hello.txt
+
+Contents of "hello.txt" will be written on-screen, and the user will
+be asked which line they wish to edit.
+
+File extension (E.G = .TXT) is needed
+
+Alternate usage:
+- EDLIN - no color
+
+HELP - HELP
+
+Displays help for commands
+
+HELP (command)
+
+Alternate usage:
+- FASTHELP - Basic help
+- DOSHELP / HELP ALL - List of commands
+
+- HELP (command) - Displays specific command help
+- E.G "HELP DIR" to vie DIR help
+
+HELP - COPY
+
+Copys a file between directories
+
+COPY (file) (destination)
+E.G COPY hello.txt folder
+Copys "HELLO.TXT" to "folder"
+
+HELP - MOVE
+
+Copys a file between directories
+
+MOVE (file) (destination)
+E.G MOVE hello.txt folder
+Moves "HELLO.TXT" to "folder"
+
+HELP - CLOCK
+
+Displays the current time and date
+
+Alternate usage:
+- "TIME" for only time
+- "DATE" for only date
+
+HELP - ECHO
+
+Prints text to screen
+
+ECHO (text)
+E.G ECHO hello!
+Prints "hello!" to the screen
+
+HELP - REM
+
+Comment
+
+REM (comment)
+E.G. REM Written in 01/03/21
+Will not display on screen
+
+HELP - FIND
+
+Finds file in directory that fits name
+
+FIND (file name)
+E.G FIND hello
+Shows any file whose name contains "hello"
+
+HELP - 2BIN
+
+Converts file to .BIN
+
+2BIN (file name + extension)
+E.G 2BIN hello.exe
+Would convert "hello.exe" to "hello.bin"
+
+HELP - FDISK
+
+Checks how much of a disk is used
+
+HELP - COMP
+
+Compares 2 directories
+
+COMP (directory name)
+E.G COMP e
+Compares folder "e" with current directory
+
+HELP - SETVER
+
+Changes Version Info
+
+SETVER X.X
+E.G SETVER 1.0
+Changes the version displayed to "1.0"
+
+Run VER to see results
+
+HELP - PROMPT
+
+Changes the prompt text
+
+PROMPT (new text)
+E.G PROMPT hello
+Changes the prompt from current directory to "HELLO"
+
+HELP - CMD
+
+Runs a Windows CMD Command
+
+CMD (command)
+E.G CMD shutdown
+Shuts down the PC
+
+HELP - DELTREE
+
+Deletes a directory and contents
+
+DELTREE (directory name)
+E.G DELTREE folder
+Deletes "folder" directory, even if it has files
+
+Identical to "RD", but doesn"t fail if directory isnt empty
+
+HELP - XCOPY
+
+Copys a directory and its contents
+
+XCOPY (directory) (new directory)
+E.G XCOPY folder folder2
+Copies "folder" and contents into new directory, "folder2"
+
+HELP - EXIT
+
+Exits DOS
+
+Alternate usage:
+- BREAK to exit without confirmation
+
+HELP - BREAK
+
+Exits DOS without confirmation
+
+HELP - COMPACT
+
+Creates and extracts ZIP files
+
+COMPACT (zip or directory)
+
+E.G COMPACT hello.zip
+Extracts "hello.zip"
+
+E.G COMPACT folder
+Compresses directory "folder" into "folder.zip"
+
+Alternate usage:
+- EXPAND
+
+HELP - CLIP
+
+Saves string to clipboard file
+
+CLIP (text)
+E.G CLIP hello
+Saves "hello" to clipboard file
+
+Aternate usage:
+- "PASTE" to view last thing added
+
+HELP - PASTE
+
+Reads last thing saved to clipboard file
+
+E.G:
+CLIP hello
+PASTE
+
+Output last thing copied, so "hello"
+
+HELP - LABEL
+
+Creates label for volume
+
+LABEL (disk) (name)
+E.G LABEL C COOL_DRIVE
+Adds the "COOL_DRIVE" label to "C:"
+
+HELP - VOL
+
+View label for volume
+
+VOL (disk)
+E.G VOL C
+Returns user-set label for "C:" drive, or "C_DRIVE" if not set
+
+Alternate usage:
+- Information available in FDISK
+
+HELP - PY
+
+Runs Python script
+
+PY (script name)
+E.G PY hello world.py
+Runs "hello world.py"
+
+Including ".PY" suffix is not necessary, unless running without PY command
+E.G "hello world.py" not "PY hello world" (both will have same result)
+
+HELP - ASSIGN
+
+Assigns drive letter to other drive
+
+ASSIGN (current letter) (new letter)
+E.G ASSIGN C Z
+Creates virtual drive "Z:" as shortcut to "C:"
+If user enters "Z:" from now, it will act as if "C:" has been entered.
+
+HELP - PAUSE
+
+Pauses for the user to press enter
+
+HELP - USERNAME
+
+Changes system username
+
+USERNAME (new name)
+E.G USERNAME Joe
+Changes username to "Joe"
+
+Username is displayed in "VER"
+
+HELP - COLOR
+
+Changes foreground or background color
+
+COLOR (foregorund color)(background color)
+
+Colors:
+0 = Black       8 = Gray
+1 = Blue        9 = Light Blue
+2 = Green       A = Light Green
+3 = Aqua        B = Light Aqua
+4 = Red         C = Light Red
+5 = Purple      D = Light Purple
+6 = Yellow      E = Light Yellow
+7 = White       F = Bright White
+
+E.G "COLOR 10" = Blue background with black text
+E.G "COLOR 4" = Red text with default background
+Use "COLOR RESET" to return to default
+
+HELP - SHUTDOWN
+
+Shuts down the Host PC
+
+Alternate usage:
+- SHUTDOWN R - Restart
+- SHUTDOWN H - Hibernate
