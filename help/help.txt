@@ -1,0 +1,143 @@
+This is a DOS command prompt clone made in python.
+It should be able to replicate the file browsing features of Windows Command Prompt (CMD).
+It can even launch Windows Executables with the 'EXE' command.
+
+Type "ABOUT" to see this dialogue again or "FASTHELP" for quick commands.
+    
+THIS is your current directory. Type "DOSHELP" for a list of all commands:
+ |
+ V
+
+FASTHELP
+
+DIR - Views files in current directory
+CD - Changes current directory
+MD - Creates new directory
+RD - Deletes a directory
+DEL - Deletes a file
+REN - Renames a file or directory
+COPY - Copies a file
+EXE - Runs a windows executables
+CMD - Runs a windows command
+
+Run "DOSHELP" for all commands
+
+==== HELP ====
+
+Run DOSHELP / HELP ALL, this help dialogue is discontinued
+	
+FILE BROWSING
+
+	DIR = Displays current directory
+	FIND = Searches directory for files
+	CD = Changes current directory
+	drive: = Switches to a different drive
+	DISKS = Shows available drives
+	
+FILE MANAGEMENT
+
+	MD/MKDIR = Creates new directory
+	RD/RMDIR = Deletes a directory
+	DEL = Deletes a file
+	REN = Renames a file
+	COPY = Copys a file
+	MOVE = Moves a file
+	
+ADVANCED FILE MANAGEMENT
+
+	FDISK = Checks disk usage
+	2BIN = Converts file to .BIN
+	COMP = Compares 2 directories
+	DELTREE = Deletes directory and contents
+	XCOPY = Copies directory and contents
+	COMPACT = Creates or extracts ZIP files
+	TYPE = Read text document
+	EDIT = Edits text document
+	EDLIN = Edits text document by line
+
+APPLICATIONS
+
+	EXE = Runs a Windows Program
+	CMD = Runs a CMD command
+	PY = Runs a Python script
+
+SYSTEM
+
+	CLOCK = Displays current time and date
+	TIME = Displays current time
+	DATE = Displays current date
+	CLIP = Adds string to clipboard file
+	PASTE = Pastes last string added to CLIP
+	PAUSE = Pauses for user input
+	EXIT = Quits DOS
+	BREAK = Force quits DOS
+	
+INFORMATION
+
+	VER = Displays version info
+	ABOUT = Runs intro dialogue
+	HELP = Displays this dialogue
+
+OPTIONS
+
+	COLOR = Changes text color of DOS
+	SETVER = Changes the version
+	LABEL = Create labels for volumes
+	VOL = View labels for volumes
+	ASSIGN = Create virtual drive letters
+	PROMPT = Changes prompt text
+	ECHO = Prints text on screen
+	REM = Comment
+	USERNAME = Change username
+
+TYPE 'HELP' plus any command for more specific help, for example 'HELP DIR'
+
+2BIN
+ABOUT
+ASSIGN
+BREAK
+CD
+CLIP
+CLOCK
+CMD
+COLOR
+COMP
+COMMAND
+COMPACT
+COPY
+DATE
+DEL
+DELTREE
+DIR
+DISKS
+DOSHELP
+DRIVE
+ECHO
+EDIT
+ERASE
+EXE
+EXIT
+EXPAND
+FASTHELP
+FDISK
+FIND
+HELP
+LABEL
+MD
+MKDIR
+MOVE
+PASTE
+PAUSE
+PROMPT
+PY
+RD
+REM
+REN
+SETVER
+TIME
+TYPE
+USERNAME
+VER
+VOL
+XCOPY
+SHUTDOWN
